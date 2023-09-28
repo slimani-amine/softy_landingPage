@@ -454,3 +454,99 @@
     width: 120%;
   }
 }
+@media (max-width: 320px) {
+  .headerSection {
+    width: 100% !important;
+    margin-left: 20%;
+  }
+  .leftSide {
+    width: 180%;
+  }
+  .rightSide {
+    width: 22vh;
+    height: 16vh;
+  }
+.title{
+  width: 170%;
+  margin-left: -40%;
+}
+.desc{
+  width: 150%;
+  margin-left: -40%;
+}
+.logo{
+  margin-left: -10%;
+}
+.discoverbtn{
+  margin-top: 5%;
+  font-size: 1.5rem;
+}
+  .headerimg,
+  .headerslogans1,
+  .headerslogans2,
+  .headerslogans3,
+  .headerslogans4,
+  .headerslogans5,
+  .headerslogans6 {
+    display: none;
+  }
+  .header {
+    margin-top: 30%;
+    margin-left: 5rem;
+  }
+  .mobile-carts {
+    width: 190%;
+    margin-left: 5%;
+  }
+  .touch {
+    font-size: 0.5rem;
+    width: 30%;
+  }
+  .sec3rightside {
+    width: 180%;
+  }
+  .sec3rightside h2 {
+    margin-left: 52%;
+  }
+  .sec3rightside h1 {
+    margin-left: 45%;
+  }
+  .sec3rightside p {
+    margin-left: 25%;
+    margin-top: 5%;
+    width: 100%;
+  }
+  .sec3slog2 {
+    left: -20%;
+
+  }
+  .sec3vidplay {
+    left: 170%;
+  }
+  .coursessection {
+    width: 180%;
+  }
+  .comparisonsection {
+    width: 180%;
+  }
+  .bootcampsection {
+    width: 180%;
+  }
+  .frequencity {
+    width: 180%;
+  }
+  .carttitle{
+    width: 180%;
+  }
+  .carttitle span {
+    margin-left: 5%;
+    font-size: 2rem;
+
+  }
+  .subsform {
+    width: 180%;
+  }
+  .mobilefooter {
+    width: 180%;
+  }
+}
