@@ -1,0 +1,456 @@
+@media (max-width: 1485px) {
+  .navBar {
+    display: none;
+  }
+  .burgerMenu {
+    display: block !important;
+  }
+  .leftSide {
+    margin-left: 10%;
+  }
+  .sec3leftside {
+    width: 60%;
+  }
+  .sec3rightside {
+    margin-left: 15%;
+  }
+  .sec3slog7 {
+    top: 125%;
+    left: 90%;
+  }
+  .sec3slog8 {
+    top: 120%;
+    left: 100%;
+  }
+  .sec3slog1 {
+    top: -5%;
+  }
+  .sec3slog4 {
+    top: 99%;
+    left: 24.5%;
+  }
+  .sec3slog5 {
+    left: 100%;
+  }
+  .sec3slog6 {
+    top: 40%;
+    left: 100%;
+  }
+  .sec3slog9 {
+    top: 0%;
+  }
+  .sec3vidplay {
+    left: 60%;
+  }
+  .frequencity {
+    margin-left: 7%;
+  }
+}
+@media (max-width: 1360px) {
+  .headerSection {
+    width: 100%;
+  }
+  .section3 {
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 3rem;
+    margin-bottom: 22rem;
+  }
+  .sec3leftside {
+    margin-top: 5%;
+    height: 100%;
+  }
+  .sec3slog7,
+  .sec3slog8,
+  .sec3slog1,
+  .sec3slog4,
+  .sec3slog5,
+  .sec3slog6,
+  .sec3slog9 {
+    display: none;
+  }
+
+  .foemrside {
+    display: none;
+  }
+  .form {
+    width: 80%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+  }
+  .sec3rightside {
+    margin-top: 7%;
+    width: 39vw;
+  }
+  .sec3vid {
+    position: absolute;
+    top: 15%;
+    left: 8%;
+  }
+  .sec3vidplay {
+    position: absolute;
+    top: 7rem;
+    left: 39%;
+  }
+  .sec3slog2 {
+    position: absolute;
+    left: 1%;
+    top: -4rem;
+  }
+  .sec3slog9 {
+    position: absolute;
+    top: 10%;
+    left: -5%;
+    z-index: 1;
+  }
+  .sec3slog6 {
+    display: none;
+  }
+  .sec3slog1 {
+    margin-top: -5%;
+    margin-left: -12%;
+  }
+  .eventssection {
+    width: 100%;
+    margin-left: 0%;
+    margin-top: 15%;
+  }
+  .carts > .cart:first-child {
+    display: none;
+  }
+  .crhid {
+    display: none;
+  }
+  .touch {
+    font-size: 0.8rem;
+  }
+  .footerimg {
+    margin-top: 25%;
+  }
+}
+@media (max-width: 997px) {
+  .mobile-carts {
+    display: flex !important;
+  }
+  .eventssection {
+    width: 100%;
+    margin-left: 15%;
+    margin-top: 15%;
+  }
+  .touch {
+    font-size: 0.5rem;
+  }
+  .eventssection {
+    display: none;
+  }
+  .sec3leftside {
+    position: relative;
+    left: -5rem;
+    scale: 0.8;
+  }
+  .sec3slog7 {
+    position: absolute;
+    top: 29rem;
+    left: 48rem;
+  }
+  .sec3slog8 {
+    position: absolute;
+    top: 28rem;
+    left: 45rem;
+  }
+  .sec3vidplay {
+    position: absolute;
+    top: 7rem;
+    left: 54%;
+    border-radius: 10%;
+    scale: 0.6;
+    margin-top: 10%;
+  }
+  .softy {
+    width: 100%;
+  }
+  .comparison {
+    display: block;
+  }
+  .others {
+    width: 100%;
+  }
+  .separation {
+    display: none;
+  }
+  .leftIcon {
+    top: -5%;
+    left: 2%;
+  }
+  .rightIcon {
+    top: -5%;
+    left: 78%;
+  }
+  .flexqte {
+    margin-left: 5%;
+  }
+  .subsform {
+    opacity: 0.8;
+  }
+  footer {
+    display: block;
+  }
+  .footercontainer {
+    margin-left: 25%;
+  }
+  .footerimg {
+    margin-left: 75%;
+  }
+  .icon01 {
+    width: 30%;
+    top: 12%;
+    left: 57%;
+  }
+  .icon02 {
+    width: 15%;
+    top: -5%;
+    left: 80%;
+  }
+}
+@media (max-width: 650px) {
+  .mobile-carts {
+    width: 120%;
+  }
+  .rightSide {
+    width: 69vw;
+    height: 37vh;
+  }
+
+  .courses {
+    margin: 5%;
+    width: 150%;
+  }
+  .courses1 {
+    margin: 5%;
+    width: 150%;
+  }
+  .sec3slog2 {
+    left: -10%;
+  }
+  .coursessection {
+    width: 110%;
+  }
+  .touch {
+    font-size: 0.8rem;
+    width: 30%;
+    margin-left: 35%;
+  }
+  .comparisonsection {
+    width: 100%;
+    margin-left: 8%;
+  }
+  .softy {
+    width: 100%;
+  }
+  .others {
+    display: none;
+  }
+  .separation {
+    display: none;
+  }
+  .prevnext {
+    display: none;
+  }
+  .carttitle {
+    font-size: 1.8rem;
+  }
+  .boot {
+    display: block;
+  }
+  .bootcampsection {
+    margin-left: 8%;
+    width: 100%;
+  }
+  .frequencity {
+    width: 100%;
+  }
+  .subsform {
+    width: 100%;
+    margin-left: 8%;
+    border-radius: 4rem;
+  }
+  .firstqte {
+    border-top-right-radius: 45px;
+    border-top-left-radius: 45px;
+  }
+  .descsec5 {
+    width: 180%;
+    margin-left: -50%;
+  }
+  .descsec5 p {
+    font-size: 0.6rem;
+  }
+  .descsec5 span {
+    font-size: 0.9rem;
+  }
+  .guycod {
+    margin-left: 45%;
+  }
+  .people {
+    display: none;
+  }
+  .flexqte h2 {
+    font-size: 1rem;
+    margin-left: 5%;
+  }
+  .descqte {
+    font-size: 0.7rem;
+  }
+  .foemrside {
+    display: none;
+  }
+  .form {
+    width: 100%;
+    margin-right: 10%;
+    opacity: 0.9;
+  }
+  .form h1 {
+    font-size: 2rem;
+  }
+  .form h3 {
+    font-size: 1.1rem;
+  }
+  .userName {
+    display: block;
+  }
+  .formbtns {
+    display: block;
+  }
+  .onlinebtn {
+    width: 49%;
+  }
+  .name {
+    width: 100%;
+  }
+  .lname {
+    width: 100%;
+  }
+  .subscribebtn {
+    width: 50%;
+    margin: 5% 5% 5% 49%;
+    padding: 14px 100px;
+  }
+  .subsform {
+    background-image: url("../images/img_0875copy1 (1).png");
+    opacity: 0.8;
+  }
+  footer {
+    display: none;
+  }
+  .mobilefooter {
+    display: block;
+    margin-left: 8%;
+    width: 100%;
+  }
+  .footercontainer h1 {
+    margin-left: -20%;
+    width: 70%;
+  }
+  .footerdesc {
+    margin: 5% 0%;
+  }
+  .socialmedia {
+    margin-left: 0%;
+    cursor: pointer;
+  }
+  .footerimg {
+    width: 240%;
+    margin: 15% 5% 15% 5%;
+  }
+  .footerdesc p {
+    font-size: 0.7rem;
+    width: 100%;
+  }
+  .icon01 {
+    width: 35%;
+    top: 8%;
+    left: 47%;
+  }
+  .icon02 {
+    width: 20%;
+    top: -5%;
+    left: 76%;
+  }
+}
+@media (max-width: 500px) {
+  .headerSection {
+    width: 100% !important;
+    margin-left: 20%;
+  }
+  .leftSide {
+    width: 100%;
+  }
+  .rightSide {
+    width: 22vh;
+    height: 16vh;
+  }
+
+  .headerimg,
+  .headerslogans1,
+  .headerslogans2,
+  .headerslogans3,
+  .headerslogans4,
+  .headerslogans5,
+  .headerslogans6 {
+    display: none;
+  }
+  .header {
+    margin-top: 30%;
+    margin-left: 5rem;
+  }
+  .mobile-carts {
+    width: 150%;
+  }
+  .touch {
+    font-size: 0.5rem;
+    width: 30%;
+  }
+  .sec3rightside {
+    width: 100%;
+  }
+  .sec3rightside h2 {
+    margin-left: 42%;
+  }
+  .sec3rightside h1 {
+    margin-left: 35%;
+  }
+  .sec3rightside p {
+    margin-left: 15%;
+    margin-top: 5%;
+  }
+  .sec3slog2 {
+    left: -20%;
+  }
+  .sec3vidplay {
+    left: 100%;
+  }
+  .coursessection {
+    width: 120%;
+  }
+  .comparisonsection {
+    width: 120%;
+  }
+  .bootcampsection {
+    width: 120%;
+  }
+  .frequencity {
+    width: 120%;
+  }
+  .carttitle span {
+    margin-left: 25%;
+    font-size: 1.5rem;
+  }
+  .subsform {
+    width: 120%;
+  }
+  .mobilefooter {
+    width: 120%;
+  }
+}
