@@ -1,6 +1,14 @@
+@media (max-width: 1585px) {
+  .navLink {
+    margin: 6% 0% 0% 3%;
+  }
+}
 @media (max-width: 1485px) {
   .navBar {
     display: none;
+  }
+  .navLink {
+    margin: 6% 0% 0% 2%;
   }
   .burgerMenu {
     display: block !important;
@@ -9,7 +17,7 @@
     margin-left: 10%;
   }
   .sec3leftside {
-    width: 60%;
+    width: 120%;
   }
   .sec3rightside {
     margin-left: 15%;
@@ -59,7 +67,7 @@
     margin-bottom: 22rem;
   }
   .sec3leftside {
-    margin-top: 5%;
+    margin: 2% 0% 0% 67%;
     height: 100%;
   }
   .sec3slog7,
@@ -87,12 +95,96 @@
   .sec3vid {
     position: absolute;
     top: 15%;
-    left: 8%;
+    left: 5%;
   }
   .sec3vidplay {
     position: absolute;
     top: 7rem;
-    left: 39%;
+    left: 25%;
+  }
+  .sec3slog2 {
+    position: absolute;
+    left: 1%;
+    top: -4rem;
+  }
+  .sec3slog9 {
+    position: absolute;
+    top: 10%;
+    left: -5%;
+    z-index: 1;
+  }
+  .sec3slog6 {
+    display: none;
+  }
+  .sec3slog1 {
+    margin-top: -5%;
+    margin-left: -12%;
+  }
+  .eventssection {
+    width: 100%;
+    margin-left: 0%;
+    margin-top: 15%;
+  }
+  .carts > .cart:first-child {
+    display: none;
+  }
+  .crhid {
+    display: none;
+  }
+  .touch {
+    font-size: 0.8rem;
+  }
+  .footerimg {
+    margin-top: 25%;
+  }
+}
+@media (max-width: 1150px) {
+  .headerSection {
+    width: 100%;
+  }
+  .section3 {
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 3rem;
+    margin-bottom: 22rem;
+  }
+  .sec3leftside {
+    margin: 2% 0% 0% 67%;
+    height: 100%;
+  }
+  .sec3slog7,
+  .sec3slog8,
+  .sec3slog1,
+  .sec3slog4,
+  .sec3slog5,
+  .sec3slog6,
+  .sec3slog9 {
+    display: none;
+  }
+
+  .foemrside {
+    display: none;
+  }
+  .form {
+    width: 80%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+  }
+  .sec3rightside {
+    margin-top: 7%;
+    width: 39vw;
+  }
+  .sec3vid {
+    position: absolute;
+    top: 15%;
+    left: 5%;
+  }
+  .sec3vidplay {
+    position: absolute;
+    top: 7rem;
+    left: 25%;
   }
   .sec3slog2 {
     position: absolute;
@@ -147,7 +239,7 @@
   }
   .sec3leftside {
     position: relative;
-    left: -5rem;
+    left: -10rem;
     scale: 0.8;
   }
   .sec3slog7 {
@@ -161,12 +253,19 @@
     left: 45rem;
   }
   .sec3vidplay {
-    position: absolute;
-    top: 7rem;
-    left: 54%;
-    border-radius: 10%;
-    scale: 0.6;
-    margin-top: 10%;
+    left: 31%;
+  }
+  .touch {
+    font-size: 1rem;
+    width: 12rem;
+    margin-left: 40%;
+  }
+  .peoplecarts {
+    margin: 0%;
+  }
+  .frequencity {
+    width: 85%;
+    margin-left: 7.5%;
   }
   .softy {
     width: 100%;
@@ -196,6 +295,8 @@
   }
   footer {
     display: block;
+    width: 85%;
+    margin-left: 7.5%;
   }
   .footercontainer {
     margin-left: 25%;
@@ -215,27 +316,45 @@
   }
 }
 @media (max-width: 650px) {
+  .leftSide {
+    width: 35%;
+    margin: 0% -3% 0% 13%;
+  }
   .mobile-carts {
     width: 120%;
   }
   .rightSide {
-    width: 69vw;
-    height: 37vh;
+    width: 68vw;
+    height: 50vh;
+    margin-left: -13%;
   }
 
+  .desc {
+    width: 235%;
+  }
   .courses {
     margin: 5%;
     width: 150%;
+  }
+  .sec3vid {
+    margin-top: -3%;
+    left: 7%;
+    width: 81%;
+  }
+  .sec3vidplay {
+    left: 43%;
+    margin-top: -2%;
   }
   .courses1 {
     margin: 5%;
     width: 150%;
   }
   .sec3slog2 {
-    left: -10%;
+    left: 2%;
+    width: 90%;
   }
   .coursessection {
-    width: 110%;
+    width: 100%;
   }
   .touch {
     font-size: 0.8rem;
@@ -244,7 +363,7 @@
   }
   .comparisonsection {
     width: 100%;
-    margin-left: 8%;
+    margin-left: 5%;
   }
   .softy {
     width: 100%;
@@ -265,15 +384,16 @@
     display: block;
   }
   .bootcampsection {
-    margin-left: 8%;
+    margin-left: 5%;
     width: 100%;
   }
   .frequencity {
     width: 100%;
+    margin-left: 5%;
   }
   .subsform {
     width: 100%;
-    margin-left: 8%;
+    margin-left: 5%;
     border-radius: 4rem;
   }
   .firstqte {
@@ -382,16 +502,25 @@
 @media (max-width: 500px) {
   .headerSection {
     width: 100% !important;
-    margin-left: 20%;
   }
   .leftSide {
     width: 100%;
+    margin-left: 20%;
   }
-  .rightSide {
-    width: 22vh;
-    height: 16vh;
+  .headerslogans7 {
+    position: absolute;
+    left: 84%;
+    top: 27%;
   }
 
+  .rightSide {
+    display: none;
+  }
+  .sec3vid {
+    margin-top: -5%;
+    left: 26%;
+    width: 78%;
+  }
   .headerimg,
   .headerslogans1,
   .headerslogans2,
@@ -426,10 +555,11 @@
     margin-top: 5%;
   }
   .sec3slog2 {
-    left: -20%;
+    left: 19%;
   }
   .sec3vidplay {
-    left: 100%;
+    left: 54%;
+    margin-top: -11%;
   }
   .coursessection {
     width: 120%;
@@ -466,21 +596,21 @@
     width: 22vh;
     height: 16vh;
   }
-.title{
-  width: 170%;
-  margin-left: -40%;
-}
-.desc{
-  width: 150%;
-  margin-left: -40%;
-}
-.logo{
-  margin-left: -10%;
-}
-.discoverbtn{
-  margin-top: 5%;
-  font-size: 1.5rem;
-}
+  .title {
+    width: 170%;
+    margin-left: -40%;
+  }
+  .desc {
+    width: 150%;
+    margin-left: -40%;
+  }
+  .logo {
+    margin-left: -10%;
+  }
+  .discoverbtn {
+    margin-top: 5%;
+    font-size: 1.5rem;
+  }
   .headerimg,
   .headerslogans1,
   .headerslogans2,
@@ -495,12 +625,15 @@
     margin-left: 5rem;
   }
   .mobile-carts {
-    width: 190%;
-    margin-left: 5%;
+    width: 300%;
   }
   .touch {
     font-size: 0.5rem;
     width: 30%;
+  }
+  .sec3vid {
+    left: 96%;
+    width: 165%;
   }
   .sec3rightside {
     width: 180%;
@@ -509,44 +642,43 @@
     margin-left: 52%;
   }
   .sec3rightside h1 {
-    margin-left: 45%;
+    margin-left: 86%;
   }
   .sec3rightside p {
-    margin-left: 25%;
-    margin-top: 5%;
-    width: 100%;
+    margin-left: 40%;
+    width: 120%;
+    font-size: 1rem;
   }
   .sec3slog2 {
-    left: -20%;
-
+    left: 83%;
+    width: 191%;
   }
   .sec3vidplay {
-    left: 170%;
+    left: 115%;
   }
   .coursessection {
-    width: 180%;
+    width: 276%;
   }
   .comparisonsection {
-    width: 180%;
+    width: 276%;
   }
   .bootcampsection {
-    width: 180%;
+    width: 276%;
   }
   .frequencity {
-    width: 180%;
+    width: 276%;
   }
-  .carttitle{
-    width: 180%;
+  .carttitle {
+    width: 276%;
   }
   .carttitle span {
     margin-left: 5%;
     font-size: 2rem;
-
   }
   .subsform {
-    width: 180%;
+    width: 276%;
   }
   .mobilefooter {
-    width: 180%;
+    width: 276%;
   }
 }
