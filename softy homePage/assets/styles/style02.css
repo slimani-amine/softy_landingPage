@@ -151,17 +151,8 @@
     margin-bottom: 22rem;
   }
   .sec3leftside {
-    margin: 2% 0% 0% 67%;
+    margin: 2% 0% 0% 52%;
     height: 100%;
-  }
-  .sec3slog7,
-  .sec3slog8,
-  .sec3slog1,
-  .sec3slog4,
-  .sec3slog5,
-  .sec3slog6,
-  .sec3slog9 {
-    display: none;
   }
 
   .foemrside {
@@ -316,21 +307,31 @@
   }
 }
 @media (max-width: 650px) {
+  .headerSection {
+    width: 136%;
+  }
   .leftSide {
-    width: 35%;
-    margin: 0% -3% 0% 13%;
+    width: 42%;
+    margin: 27% -4% -12% 7%;
   }
   .mobile-carts {
     width: 120%;
+  }
+  .logo {
+    margin-top: -88%;
   }
   .rightSide {
     width: 68vw;
     height: 50vh;
     margin-left: -13%;
   }
-
+  .sec3leftside {
+    position: relative;
+    left: -6rem;
+    scale: 0.8;
+  }
   .desc {
-    width: 235%;
+    width: 162%;
   }
   .courses {
     margin: 5%;
@@ -504,18 +505,26 @@
     width: 100% !important;
   }
   .leftSide {
-    width: 100%;
-    margin-left: 20%;
+    width: 72%;
+    margin: 32% -4% -15% -8%;
   }
+.logo{
+  margin: -5% 0% 0% 24%;
+}
   .headerslogans7 {
-    position: absolute;
-    left: 84%;
-    top: 27%;
-  }
-
-  .rightSide {
     display: none;
   }
+  .sec3leftside {
+    left: -8rem;
+}
+  .rightSide {
+    margin-right: -39%;
+    width: 100%;
+  }
+  .section3 {
+    margin-bottom: 18rem;
+    width: 112%;
+}
   .sec3vid {
     margin-top: -5%;
     left: 26%;
@@ -562,31 +571,31 @@
     margin-top: -11%;
   }
   .coursessection {
-    width: 120%;
+        width: 132%;
   }
   .comparisonsection {
-    width: 120%;
+        width: 132%;
   }
   .bootcampsection {
-    width: 120%;
+        width: 132%;
   }
   .frequencity {
-    width: 120%;
+        width: 132%;
   }
   .carttitle span {
     margin-left: 25%;
     font-size: 1.5rem;
   }
   .subsform {
-    width: 120%;
+        width: 132%;
   }
   .mobilefooter {
-    width: 120%;
+    width: 116%;
   }
 }
 @media (max-width: 320px) {
   .headerSection {
-    width: 100% !important;
+    width: 250% !important;
     margin-left: 20%;
   }
   .leftSide {
